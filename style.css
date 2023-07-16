@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 90%;
+  max-width: 440px;
+  color: #fff;
+  text-align: center; 
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.card img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #ffffff30;
+}
+
+.card h2{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.card p{
+  font-size: 18px;
+  margin: 10px auto;
+  max-width: 330px;
+  font-weight: 600;
+}
+
+#typed-text{
+  font-weight: bold ;
+  color: #ff01cf;
+}
+
+.card .links img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px 5px;
+  transition: background 0.5s;
+}
+
+.card .links img:hover{
+  background: #ff01cf;
+}
+
+.btn{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  background: #fff;
+  color: #ff01cf;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 30px 0 10px;
+  
+}
+
+ .circle1 {
+    position: fixed;
+    top: 5%;
+    left: 30%;
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 50px #d84869;
+            box-shadow: 0 0 50px #d84869;
+    background: -o-linear-gradient(115deg, #d84869, #f46641);
+    background: linear-gradient(-25deg, #d84869, #f46641);
+    -webkit-animation: circle1Animate 15s infinite;
+            animation: circle1Animate 15s infinite;
+  }
+  
+  @-webkit-keyframes circle1Animate {
+    50% {
+      left: 33%;
+      top: 4%;
+      scale: 1.11;
+    }
+  }
+  
+  @keyframes circle1Animate {
+    50% {
+      left: 33%;
+      top: 4%;
+      scale: 1.11;
+    }
+  }
+  
+  .circle2 {
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 50px #5648d8;
+            box-shadow: 0 0 50px #5648d8;
+    background: -o-linear-gradient(115deg, #5648d8, #8641f4);
+    background: linear-gradient(-25deg, #5648d8, #8641f4);
+    -webkit-animation: circle2Animate 8s infinite;
+            animation: circle2Animate 8s infinite;
+  }
+  @-webkit-keyframes circle2Animate {
+    50% {
+      bottom: 6%;
+      right: 31%;
+    }
+  }
+  @keyframes circle2Animate {
+    50% {
+      bottom: 6%;
+      right: 31%;
+    }
+  }
+  
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Profile Card Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+  <div class="container">
+     <div class="circle1"></div>
+     <div class="circle2"></div>
+    <div class="card" data-tilt>
+      <img src="images/user-img.jpg" alt="user">
+      <h2>Sourav Ghosh</h2>
+      <p>
+        I'm a <span id="typed-text"></span>
+      </p>
+      <div class="links">
+        <a href="https://www.facebook.com/profile.php?id=100025640018380"><img src="images/facebook.png" alt="facebook-logo"></a>
+         <a href="https://twitter.com/souravghosh121?t=dUqEnwEsGTRcVY8Ki_HVrQ&s=09"><img src="images/twitter.png" alt="twitter-logo"></a>
+        <a href="https://t.me/souravghosh121"><img src="images/telegram.png" alt="telegram-logo"></a>
+      </div>
+      <a href="https://www.linkedin.com/in/souravghosh121" class="btn">Follow Me</a>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+     var typed = new Typed('#typed-text', {
+      strings: ['Student', 'Problem Solver','Frontend Developer'],
+      typeSpeed: 100,
+      backSpeed:50,
+      loop: true,
+    });
+   </script>
+</body>
+</html>
