@@ -45,7 +45,7 @@ body{
   margin-top: 20px;
 }
 
-.card h2::selection{
+.card h2:selection{
   background: #ff01cf;
   color: #fff;
 }
