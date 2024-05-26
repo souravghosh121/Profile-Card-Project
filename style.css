@@ -45,6 +45,11 @@ body{
   margin-top: 20px;
 }
 
+.card h2:select{
+  background: #ff01cf;
+  color: #fff;
+}
+
 .card p{
   font-size: 18px;
   margin: 10px auto;
